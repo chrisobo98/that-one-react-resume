@@ -19,8 +19,8 @@ class App extends Component {
       bio: 'Specializing in UI/UX - Freelance Developer, CSS Lover, Geek & Gamer.',
       address: 'Willing to Relocate',
       social: [
-        {name: 'github', url: 'https://github.com/gndx'},
-        {name: 'linkedin', url: 'https://www.linkedin.com/in/oscarbarajas/'}
+        {name: 'github', url: 'https://github.com/chrisobo98'},
+        {name: 'linkedin', url: 'https://www.linkedin.com/in/christopher-bermudez-6b578b129/'}
       ],
       introduction: [
         {introductionTitle: 'My Introduction'}
