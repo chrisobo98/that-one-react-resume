@@ -19,7 +19,8 @@ class App extends Component {
       address: 'Willing to Relocate',
       social: [
         {name: 'github', url: 'https://github.com/chrisobo98'},
-        {name: 'linkedin', url: 'https://www.linkedin.com/in/christopher-bermudez-6b578b129/'}
+        {name: 'linkedin', url: 'https://www.linkedin.com/in/christopher-bermudez-6b578b129/'},
+
       ],
       introduction: [
         {introductionTitle: 'My Introduction'}

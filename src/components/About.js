@@ -18,6 +18,9 @@ const About = ({avatar, name, profession, bio, address, social}) => {
       <div className='address'>
         <p className="willingToRelocate">{address}</p>
       </div>
+      <div className='address'>
+        <p className="willingToRelocate">christopherbermudez98@gmail.com</p>
+      </div>
       <Social social={social} />
       <div style={{paddingTop: 20}} className='pdf'>
         <button className="button"><a href="https://docs.google.com/document/d/1oxeQ847LhWEeBbzOS6NX9E1rsP1a-zDTrm3V68ENG4Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Click for Google Doc</a></button>
