@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
-import Certificate from './components/Certificate';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Introduction from './components/Introduction';
@@ -26,9 +25,9 @@ class App extends Component {
         {introductionTitle: 'My Introduction'}
       ],
       projects: [
-        {projectTitle: 'Date Knight', projectType: 'Web App', projectDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
-        {projectTitle: 'Room Me', projectType: 'Web App', projectDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
-        {projectTitle: 'Build-a-PC Workshop', projectType: 'React App', projectDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'}
+        {projectTitle: 'Date Knight', projectType: 'Web App', projectDescription: 'Date planner application using API’s to show nearby events after a user submits their zip code, and pulls up nearby restaurants when an event is clicked', projectLink: 'https://ascoonj.github.io/ItsADate-GroupProject/results.html'},
+        {projectTitle: 'Room Me', projectType: 'Web App', projectDescription: 'Quiz application matching you with a roommate to avoid potential roommate horror stories.', projectLink: 'https://frozen-savannah-91005.herokuapp.com/'},
+        {projectTitle: 'Build-a-PC Workshop', projectType: 'React App', projectDescription: 'Newegg like PC component and pre-builds store application on React.', projectLink: 'https://github.com/chrisobo98/build-a-pc-workshop'}
       ],
       education: [
         {degree: 'Coding Bootcamp', institution: 'University of Central Florida', startDate: 'Oct 2017', endDate: 'April 2018', description: 'Fast-paced, immersive curriculum, learned the skills needed to become proficient in front-end and back-end technologies.'},
@@ -67,7 +66,6 @@ class App extends Component {
                 <Skills skills={person.skills} />
                 <Experience experience={person.experience} />
                 <Projects projects={person.projects} />
-                <Certificate certificate={person.certificate} />
               </div>
           </div>
 

@@ -19,24 +19,13 @@ import React from 'react';
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2010 - 2011"
+              date="2018"
               iconStyle={{ background: 'rgb(34,139,34)', color: '#228B22' }}
             >
               <h3 className="vertical-timeline-element-title">Full Sail University</h3>
               <h4 className="vertical-timeline-element-subtitle">Orlando, FL</h4>
               <p>
                 App Developer
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2008 - 2010"
-              iconStyle={{ background: 'rgb(34,139,34)', color: '#228B22' }}
-            >
-              <h3 className="vertical-timeline-element-title">Orlando Hoppers</h3>
-              <h4 className="vertical-timeline-element-subtitle">Remote</h4>
-              <p>
-                User Experience, Visual Design
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>

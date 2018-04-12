@@ -5,7 +5,7 @@ const Projects = (props) => {
         <div>
             {props.projects.map((pro) =>
                 <div className='item' key={pro.projectTitle}>
-                    <h3>{pro.projectSubtitle}</h3>
+                    <h3>{pro.projectTitle} <br/><a href={pro.projectLink} target="_blank" rel="noopener noreferrer"><span>{pro.projectType}</span></a></h3>
                     <p>{pro.projectDescription}</p>
                 </div>
             )}
