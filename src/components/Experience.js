@@ -28,6 +28,17 @@ import React from 'react';
                 App Developer
               </p>
             </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2018"
+              iconStyle={{ background: 'rgb(34,139,34)', color: '#228B22' }}
+            >
+              <h3 className="vertical-timeline-element-title">Shoeland</h3>
+              <h4 className="vertical-timeline-element-subtitle">Orlando, FL</h4>
+              <p>
+                Magento + Wordpress E-Commerce Site Master, Digital Marketing and Growth Hacking
+              </p>
+            </VerticalTimelineElement>
           </VerticalTimeline>
       </div>
   );

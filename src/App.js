@@ -14,8 +14,8 @@ class App extends Component {
     const person = {
       avatar: 'https://avatars0.githubusercontent.com/u/30301877?s=460&v=4',
       name: 'Christopher Bermudez',
-      profession: 'Full-Stack Developer',
-      bio: 'Specializing in UI/UX - Freelance Developer, CSS Lover, Geek & Gamer.',
+      profession: 'Certified Full-Stack Developer and Digital Marketing Specialist',
+      bio: 'Specializing in UI/UX - Freelance Developer, Focus on E-Commerce.',
       address: 'Willing to Relocate',
       social: [
         {name: 'github', url: 'https://github.com/chrisobo98'},
@@ -31,19 +31,24 @@ class App extends Component {
         {projectTitle: 'Build-a-PC Workshop', projectType: 'React App', projectDescription: 'Newegg like PC component and pre-builds store application on React.', projectLink: 'https://github.com/chrisobo98/build-a-pc-workshop'}
       ],
       education: [
-        {degree: 'Coding Bootcamp', institution: 'University of Central Florida', startDate: 'Oct 2017', endDate: 'April 2018', description: 'Fast-paced, immersive curriculum, learned the skills needed to become proficient in front-end and back-end technologies.'},
+        {degree: 'Coding Bootcamp', institution: 'University of Central Florida', startDate: 'Oct 2017', endDate: 'April 2018', description: 'Proud Graduate. This was a fast-paced, immersive curriculum, learned the skills needed to become proficient in front-end and back-end technologies.'},
       ],
       certificate: [
         {name: 'FrontEnd Developer', institution: 'Platzi', date: 'Jan 2015', description: 'Aenean commodo ligula eget dolor. Aenean massa.' },
         {name: 'Backend Developer', institution: 'Platzi', date: 'Jan 2016', description: 'Aenean commodo ligula eget dolor. Aenean massa.' }
       ],
       skills: [
-        {name: 'React', percentage: '95%'},
-        {name: 'CSS', percentage: '90%'},
-        {name: 'Git', percentage: '90%'},
-        {name: 'ES6', percentage: '75%'},
-        {name: 'MongoDB', percentage: '70%'},
-        {name: "REST API's", percentage: '70%'}
+        {name: 'React', percentage: '100%'},
+        {name: 'CSS', percentage: '100%'},
+        {name: 'Git', percentage: '100%'},
+        {name: 'SEO', percentage: '100%'},
+        {name: "Digital Marketing", percentage: '100%'},
+        {name: 'Google Ads', percentage: '90%'},
+        {name: 'Analytics', percentage: '90%'},
+        {name: "Adobe", percentage: '80%'},
+        {name: "E-Commerce", percentage: '90%'},
+        {name: "Magento + Wordpress", percentage: '90%'},
+
       ]
     };
 
