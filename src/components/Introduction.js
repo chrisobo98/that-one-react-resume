@@ -5,7 +5,7 @@ const Introduction = (props) => {
         <div>
             {props.introduction.map((intro) =>
                 <div className='item' key={intro.introductionTitle}>
-                    <p> I am a freelance developer looking for a full-time position at a company with the opportunity for advancement. I've been in the tech field for a few years now, I enjoy a challenge and working with other people. I have the ability to adapt to my enviroment to become a key player quickly, as I don't like falling behind. This resume is made with React, a JavaScript Front-End User Interface Library. Like my resume? Well Thank You! Don't forget to grab the PDF/Google Document version.</p>
+                    <p>I am a recent graduate of The University of Central Florida, now based in Denver, Colorado. Focusing on Full-Stack Development and Digital Marketing, I stay competitive by keeping up to date with the latest technologies. I am a passionate coder and an avid learner. I enjoy hiking, trying out new foods, and spending time with my wife and dog. Recently I have been working on, and loving’ all things JavaScript, plus mobile user experience and design.</p>
                 </div>
             )}
         </div>

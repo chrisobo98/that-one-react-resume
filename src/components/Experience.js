@@ -1,45 +1,15 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
 import React from 'react';
 
   const Experience = (props) => {
     const myExperience = (
-        <div>
-          <VerticalTimeline>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2016 - present"
-              iconStyle={{ background: 'rgb(34,139,34)', color: '#228B22' }}
-            >
-              <h3 className="vertical-timeline-element-title">El Cerro Restaurant</h3>
-              <h4 className="vertical-timeline-element-subtitle">Clermont, FL</h4>
-              <p>
-                Web Developer, Graphic Designer, Social Media and Marketing
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2018"
-              iconStyle={{ background: 'rgb(34,139,34)', color: '#228B22' }}
-            >
-              <h3 className="vertical-timeline-element-title">Full Sail University</h3>
-              <h4 className="vertical-timeline-element-subtitle">Orlando, FL</h4>
-              <p>
-                App Developer
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2018"
-              iconStyle={{ background: 'rgb(34,139,34)', color: '#228B22' }}
-            >
-              <h3 className="vertical-timeline-element-title">Shoeland</h3>
-              <h4 className="vertical-timeline-element-subtitle">Orlando, FL</h4>
-              <p>
-                Magento + Wordpress E-Commerce Site Master, Digital Marketing and Growth Hacking
-              </p>
-            </VerticalTimelineElement>
-          </VerticalTimeline>
+      <div>
+        {props.experience.map((exp) =>
+          <div className='item' key={exp.experienceArray}>
+            <h3>{exp.title} <br></br>{exp.company} <br></br><span>{exp.startDate} - {exp.endDate}</span></h3>
+
+            <p></p>
+          </div>
+        )}   
       </div>
   );
   return (
